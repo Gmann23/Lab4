@@ -35,7 +35,7 @@ int main(void) {
 	if (tmpB == 0x01) {
 	    if (!tmpC) {
 		PORTB = 0x02;
-		stmpC = 0x01;
+		tmpC = 0x01;
 	    }
 	    else {
 		PORTB = 0x01;
